@@ -26,13 +26,13 @@ VALUES
     ('Maintenance', 45000, 5);
 
 INSERT INTO
-    employee_db.employee (first_name, last_name, title)
+    employee_db.employee (first_name, last_name, role_id)
 
 VALUES
-    ('Billy', 'Bob', 'Manager'),
-    ('Joe', 'Thorton', 'Controller'),
-    ('Justin', 'Who', 'Maintenance'),
-    ('Jackson', 'Pollock', 'HR Coordinator'),
-    ('Ted', 'Nudgent', 'Accountant'),
-    ('Natalie', 'Kramer', 'Office Manager'),
-    ('Nicholas', 'Kringle', 'Representative');
+    ('Billy', 'Bob', 1),
+    ('Joe', 'Thorton', 2),
+    ('Justin', 'Who', 3),
+    ('Jackson', 'Pollock', 4),
+    ('Ted', 'Nudgent', 4),
+    ('Natalie', 'Kramer', 5),
+    ('Nicholas', 'Kringle', 5);
