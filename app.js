@@ -6,8 +6,12 @@ const path = require("path");
 
 // Directories
 const LIB_DIR = path.resolve(__dirname, "./app/lib");
+
 // Modules
 const action = require(`${LIB_DIR}/action.js`);
+const view = require(`${LIB_DIR}/view.js`);
+const add = require(`${LIB_DIR}/add.js`);
+const pool = require(`${LIB_DIR}/mysql.js`);
 
 // function which prompts the user for what action they should take
 const init = async () => {
